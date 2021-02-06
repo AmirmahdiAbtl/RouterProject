@@ -1,0 +1,119 @@
+.component{
+    background-color: #ffffff;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 15px;
+    text-align: center;
+}
+.title{
+    padding-bottom: 1rem;
+}
+.details{
+    text-align: left;
+    max-width: 40rem;
+}
+.massage{
+    height: 50%;
+    padding: 2rem;
+    background-color: rgb(255, 116, 116);
+    color: rgb(121, 57, 57);
+    border-radius: 0.5rem;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 15px;
+}
+.massage h3{
+    font-size: 1rem;
+}
+.ui{
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+}
+.img{
+    border-radius: 0.5rem;
+    
+}
+.calories{
+    text-align: left;
+    padding: 0.5rem 0;
+    font-weight: bold;
+}
+.nav{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    padding: 0 1rem 0 1rem;
+    color: rgb(255, 255, 255);
+}
+.item li{
+    float: right;
+    padding-left: 3rem;
+    list-style: none;
+    cursor: pointer;
+    transition: all 500ms ease;
+    color: rgb(255, 255, 255);
+}
+.item li:hover{
+    font-size: 1.5rem;
+}
+.Home{
+    text-align: center;
+    color: #ffffff;
+}
+.Home h1{
+    cursor: context-menu;
+    padding-bottom: 2rem;
+    word-spacing: 0.5rem;
+}
+.Home h3{
+    font-weight: 400;
+    letter-spacing: 0.25rem;
+    padding-bottom: 1rem;
+}
+.Home p{
+    font-weight: 300;
+    letter-spacing: 0.125rem;
+    padding-bottom: 2rem;
+}
+.Home button{
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    border-color: #ffffff;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.Home button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.About{
+    text-align: center;
+}
+.About h1{
+    color: #ffffff;
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.About button{
+    
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    border-color: #ffffff;
+    cursor: pointer;
+    transition: all 500ms ease;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+}
+.About button:hover{
+    background-color: #000000;
+    border-color: #000000;
+}
